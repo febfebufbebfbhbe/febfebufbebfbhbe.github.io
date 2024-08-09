@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+    />
+    <link rel="stylesheet" href="support.css" />
+    <link rel="icon" href="./images/logo.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/site.webmanifest" />
+    <title>Nino-OS | Support</title>
+    <meta content="Nino-OS | Support" property="og:title" />
+    <meta
+      content="This is the support page of Nino-OS. You can use this page to contact the support team or to report a bug 🐞"
+      property="og:description"
+    />
+    <meta content="https://Nino-OS.com/support property="og:url" />
+    <meta
+      content="https://Nino-OS.com/images/logo.png"
+      property="og:image"
+    />
+    <meta content="#3498db" data-react-helmet="true" name="theme-color" />
+  </head>
+  <body>
+    <button
+      class="theme-toggle"
+      id="theme-toggle"
+      onclick="toggleTheme()"
+    ></button>
+
+    <button class="main-site-back" onclick="redirectToMainSite()">
+      <i class="ri-arrow-left-line"></i>
+      <div class="backfont">Back</div>
+    </button>
+
+    <header class="title-size">
+      <nav>
+        <h1>The <span>Nino-OS</span> Support<i class="ri-mail-send-line"></i></h1>
+       </a>
+      </nav>
+    </header>
+
+    <nav class="section">
+      <ul>
+        <li><a id="FAQ" class="FAQ">FAQ</a></li>
+        <li><a id="Kontakt" class="Kontakt">Contact</a></li>
+      </ul>
+    </nav>
+
+    <section id="section1" class="section1">
+      <h2>What can I use support for ⁉</h2>
+      <p>Here you can find out what you could use support for ⬇</p>
+      <ul>
+        <li>Support can be used for a bug report. 🐞</li>
+        <li>
+          It can also be used as an aid to using the bot (FAQ). 🤝
+        </li>
+        <li>
+          Of course, support can also be used for general questions and concerns. 💬
+        </li>
+      </ul>
+    </section>
+
+    <section id="section2" class="section2">
+      <h2>To contact 📞</h2>
+      <p>Fill in the boxes to reach support 🔗</p>
+      <form
+        method="post"
+        enctype="multipart/form-data"
+        onsubmit="return sendEmail();"
+      >
+        <label for="name">👤 | Your name (Discord name):</label>
+        <input
+          class="linC"
+          placeholder="Your Discord-Name"
+          type="text"
+          id="name"
+          name="name"
+        />
+        <label for="message">📧 | Your message:</label>
+        <textarea
+          class="linC"
+          placeholder="Your Support-Message"
+          id="message"
+          name="message"
+          rows="4"
+        ></textarea>
+        <button class="send-button">Send the Message📬</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>
+        <a class="footer"
+          >Copyright © 2023-2024 Robotic Germany ✠. All Rights Reserved.</a
+        >
+      </p>
+    </footer>
+    <script src="support-theme.js"></script>
+  </body>
+</html>

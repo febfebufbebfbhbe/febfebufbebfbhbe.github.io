@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/logo.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./images/site.webmanifest" />
+    <title>Nino-OS | Status</title>
+
+    <meta content="Nino-OS | Status" property="og:title" />
+    <meta
+      content="This is the Nino-OS Status Page, here can you monitroe the serveice of the Nino-OS 🟢"
+      property="og:description"
+    />
+    <meta content="https://Nino-OS.com/status" property="og:url" />
+    <meta content="https://Nino-OS.com/images/logo.png" property="og:image" />
+    <meta content="#3498db" data-react-helmet="true" name="theme-color" />
+  </head>
+  <body>
+    <button
+      class="theme-toggle"
+      id="theme-toggle"
+      onclick="toggleTheme()"
+    ></button>
+
+    <button class="main-site-back" onclick="redirectToMainSite()">
+      <i class="ri-arrow-left-line"></i>
+      <div class="backfont">Back</div>
+    </button>
+
+    <header class="title-size">
+      <nav>
+        <h1>
+          The <span>Nino-OS</span> Status<i class="ri-bar-chart-box-line"></i>
+        </h1>
+      </nav>
+    </header>
+
+    <section id="section" class="section">
+      <h2>
+        Next Update: 
+        <div id="timer">00sec.</div>
+      </h2>
+    </section>
+
+    <section id="section" class="section">
+      <h2>Nino-OS Server</h2>
+      <p id="status-txt1">Loading ...</p>
+    </section>
+
+    <section id="section" class="section">
+      <h2>Nino-OS Panel</h2>
+      <p id="status-txt2">Loading ...</p>
+    </section>
+
+    <footer>
+      <p>
+        Copyright © 2023-2024 Robotic Germany ✠. All Rights Reserved.
+        <a class="footer" href="https://Nino-OS.com/"></a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
