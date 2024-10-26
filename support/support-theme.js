@@ -45,7 +45,7 @@ function disableDarkMode() {
 }
 
 function redirectToMainSite() {
-  window.location.href = "https://Nino-OS.com/";
+  window.location.href = "https://nino-os.deboticz.online/";
 }
 
 function sendEmail() {
@@ -71,7 +71,7 @@ function sendEmail() {
 
   window.location.href = mailtoLink;
 
-  window.location.href = "https://Nino-OS.com/";
+  window.location.href = "https://nino-os.deboticz.online/";
 
   return false;
 }

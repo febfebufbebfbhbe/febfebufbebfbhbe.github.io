@@ -43,7 +43,7 @@ function disableDarkMode() {
 }
 
 function redirectToMainSite() {
-  window.location.href = "https://Nino-OS.com/";
+  window.location.href = "https://nino-os.deboticz.online/";
 }
 
 window.onload = function () {

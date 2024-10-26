@@ -1,6 +1,6 @@
 // Redirect to main site
 function redirectToMainSite() {
-  window.location.href = "https://Nino-OS.com/";
+  window.location.href = "https://nino-os.deboticz.online/";
 }
 
 // Copy command to clipboard
